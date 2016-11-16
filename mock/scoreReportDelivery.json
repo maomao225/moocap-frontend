@@ -1,0 +1,14 @@
+{
+    "id": 17,
+    "number": "743180983",
+    "school_name": "测试学校1",
+    "exam_card_num": "12212",
+    "bill_to_name": "adsfasdf",
+    "bill_to_phonenumber": "asdfasdf",
+    "address": "大小鸡西address",
+    "bill_to_postalcode": "adsfasdf",
+    "deliver_status": "not_deliver",
+    "logistics_company": "杨洋物流有限公司",
+    "tracking_number": "1234567890",
+    "purchase_time": "2016-01-14T07:38:41.141761Z"
+}

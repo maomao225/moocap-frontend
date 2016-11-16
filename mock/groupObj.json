@@ -1,0 +1,49 @@
+{
+    "id": 4,
+    "name": "sysadmin",
+    "menus": [
+        {
+            "menu": [
+                {
+                    "menu": [],
+                    "codename": "school_school",
+                    "name": "学校管理",
+                    "order": 1
+                }
+            ],
+            "codename": "school",
+            "name": "学校管理",
+            "order": 2
+        },
+        {
+            "menu": [
+                {
+                    "menu": [],
+                    "codename": "course_course",
+                    "name": "课程管理",
+                    "order": 1
+                }
+            ],
+            "codename": "course",
+            "name": "课程管理",
+            "order": 3
+        },
+        {
+            "menu": [
+                {
+                    "menu": [],
+                    "codename": "sysadmin_term",
+                    "name": "年份管理",
+                    "order": 2
+                }
+            ],
+            "codename": "sysadmin",
+            "name": "系统管理",
+            "order": 7
+        }
+    ],
+    "school_permissions": {
+        "codename": "schoolpermission__all",
+        "name": "全部学校"
+    }
+}

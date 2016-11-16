@@ -1,0 +1,134 @@
+{
+	"get!^/api/cms/schools" : "http://127.0.0.1:8080/mock/schoolList.json",
+	"post!^/api/cms/schools" : "http://127.0.0.1:8080/mock/school.json",
+
+	"get!^/api/cms/school" : "http://127.0.0.1:8080/mock/school.json",
+	"patch!^/api/cms/school" : "http://127.0.0.1:8080/mock/school.json",
+	"put!^/api/cms/school" : "http://127.0.0.1:8080/mock/school.json",
+	"delete!^/api/cms/school" : "http://127.0.0.1:8080/mock/delete.json",
+
+	"post!^/api/cms/login/" : "http://127.0.0.1:8080/mock/userLogin.json",
+
+	"get!^/api/cms/location/provinces/" : "http://127.0.0.1:8080/mock/provinces.json",
+	"get!^/api/cms/location/cities/" : "http://127.0.0.1:8080/mock/cities.json",
+	"get!^/api/cms/location/districts/" : "http://127.0.0.1:8080/mock/districts.json",
+
+	"post!^/api/cms/location/provinces/" : "http://127.0.0.1:8080/mock/provinceCreate.json",
+	"post!^/api/cms/location/cities/" : "http://127.0.0.1:8080/mock/cityCreate.json",
+	"post!^/api/cms/location/districts/" : "http://127.0.0.1:8080/mock/districtCreate.json",
+
+	"put!^/api/cms/location/province/[\\d]*?/" : "http://127.0.0.1:8080/mock/province_put.json",
+	"delete!^/api/cms/location/province/[\\d]*?/" : "http://127.0.0.1:8080/mock/province_put.json",
+
+	"get!^/api/cms/terms/" : "http://127.0.0.1:8080/mock/terms.json",
+	"post!^/api/cms/terms/" : "http://127.0.0.1:8080/mock/term.json",
+
+	"patch!^/api/cms/term/" : "http://127.0.0.1:8080/mock/term.json",
+	"put!^/api/cms/term/" : "http://127.0.0.1:8080/mock/term.json",
+	"delete!^/api/cms/term/" : "http://127.0.0.1:8080/mock/term.json",
+
+	"get!/api/cms/groups/" : "http://127.0.0.1:8080/mock/groupsGet.json",
+	"post!/api/cms/groups/" : "http://127.0.0.1:8080/mock/groupObj.json",
+
+	"put!/api/cms/group/" : "http://127.0.0.1:8080/mock/groupObj.json",
+	"patch!/api/cms/group/" : "http://127.0.0.1:8080/mock/groupObj.json",
+	"delete!/api/cms/group/" : "http://127.0.0.1:8080/mock/delete.json",
+
+	"get!/api/cms/menus/" : "http://127.0.0.1:8080/mock/menus.json",
+
+	"get!/api/cms/users/" : "http://127.0.0.1:8080/mock/userList.json",
+	"post!/api/cms/users/" : "http://127.0.0.1:8080/mock/user.json",
+
+	"get!/api/cms/user/" : "http://127.0.0.1:8080/mock/user.json",
+	"put!/api/cms/user/" : "http://127.0.0.1:8080/mock/user.json",
+	"patch!/api/cms/user/" : "http://127.0.0.1:8080/mock/user.json",
+	"delete!/api/cms/user/" : "http://127.0.0.1:8080/mock/delete.json",
+
+
+	"post!/api/cms/password/reset/" : "http://127.0.0.1:8080/mock/delete.json",
+	"get!/api/cms/password/reset/" : "http://127.0.0.1:8080/mock/delete.json",
+
+	"get!/api/cms/courses/" : "http://127.0.0.1:8080/mock/courseList.json",
+	"post!/api/cms/courses/" : "http://127.0.0.1:8080/mock/course.json",
+
+	"get!/api/cms/xuetangx_courses/.*" : "http://127.0.0.1:8080/mock/onlineCourseList.json",
+
+	"get!/api/cms/course/" : "http://127.0.0.1:8080/mock/course.json",
+	"put!/api/cms/course/" : "http://127.0.0.1:8080/mock/course.json",
+	"patch!/api/cms/course/" : "http://127.0.0.1:8080/mock/course.json",
+	"delete!/api/cms/course/" : "http://127.0.0.1:8080/mock/delete.json",
+
+	"get!/api/cms/students/" : "http://127.0.0.1:8080/mock/studentList.json",
+	"post!/api/cms/students/" : "http://127.0.0.1:8080/mock/student.json",
+
+	"get!/api/cms/student/" : "http://127.0.0.1:8080/mock/student.json",
+	"put!/api/cms/student/" : "http://127.0.0.1:8080/mock/student.json",
+	"patch!/api/cms/student/" : "http://127.0.0.1:8080/mock/student.json",
+	"delete!/api/cms/student/" : "http://127.0.0.1:8080/mock/delete.json",
+
+    "get!^/api/cms/announcements/" : "http://127.0.0.1:8080/mock/announcements.json",
+    "post!^/api/cms/announcements/" : "http://127.0.0.1:8080/mock/announcements.json",
+
+    "put!^/api/cms/announcement/" : "http://127.0.0.1:8080/mock/announcement.json",
+    "patch!^/api/cms/announcement/" : "http://127.0.0.1:8080/mock/announcement.json",
+    "get!^/api/cms/announcement/" : "http://127.0.0.1:8080/mock/announcement.json",
+    "delete!^/api/cms/announcement/" : "http://127.0.0.1:8080/mock/delete.json",
+
+    "get!^/api/cms/examinfos/" : "http://127.0.0.1:8080/mock/examinfos.json",
+    "post!^/api/cms/examinfos/" : "http://127.0.0.1:8080/mock/examinfos.json",
+
+    "put!^/api/cms/examinfo/" : "http://127.0.0.1:8080/mock/examinfo.json",
+    "patch!^/api/cms/examinfo/" : "http://127.0.0.1:8080/mock/examinfo.json",
+    "get!^/api/cms/examinfo/" : "http://127.0.0.1:8080/mock/examinfo.json",
+    "delete!^/api/cms/examinfo/" : "http://127.0.0.1:8080/mock/delete.json",
+
+    "get!^/api/cms/memberschools/" : "http://127.0.0.1:8080/mock/memberschools.json",
+    "post!^/api/cms/memberschools/" : "http://127.0.0.1:8080/mock/memberschools.json",
+
+    "put!^/api/cms/memberschool/" : "http://127.0.0.1:8080/mock/memberschool.json",
+    "get!^/api/cms/memberschool/" : "http://127.0.0.1:8080/mock/memberschool.json",
+    "delete!^/api/cms/memberschool/" : "http://127.0.0.1:8080/mock/memberschool.json",
+
+    "post!^/api/cms/schoollogo/" : "http://127.0.0.1:8080/mock/delete.json",
+
+	"get!/api/cms/exams/" : "http://127.0.0.1:8080/mock/examList.json",
+	"post!/api/cms/exams/" : "http://127.0.0.1:8080/mock/exam.json",
+
+	"get!/api/cms/exam/" : "http://127.0.0.1:8080/mock/exam.json",
+	"put!/api/cms/exam/" : "http://127.0.0.1:8080/mock/exam.json",
+	"patch!/api/cms/exam/" : "http://127.0.0.1:8080/mock/exam.json",
+	"delete!/api/cms/exam/" : "http://127.0.0.1:8080/mock/delete.json",
+
+	"get!/api/cms/examrooms/" : "http://127.0.0.1:8080/mock/examroomList.json",
+	"post!/api/cms/examrooms/" : "http://127.0.0.1:8080/mock/examroom.json",
+
+	"get!/api/cms/examroom/" : "http://127.0.0.1:8080/mock/examroom.json",
+	"put!/api/cms/examroom/" : "http://127.0.0.1:8080/mock/examroom.json",
+	"patch!/api/cms/examroom/" : "http://127.0.0.1:8080/mock/examroom.json",
+	"delete!/api/cms/examroom/" : "http://127.0.0.1:8080/mock/delete.json",
+
+	"get!^/api/cms/order/exam_orders/.*" : "http://127.0.0.1:8080/mock/examOrderList.json",
+	"put!/api/cms/order/exam_order/audit_refund/.*" : "http://127.0.0.1:8080/mock/auditRefund.json",
+	"get!/api/cms/order/score_report_orders/" : "http://127.0.0.1:8080/mock/scoreReportOrders.json",
+
+	"get!/api/cms/allocations/" : "http://127.0.0.1:8080/mock/allocationsList.json",
+	"post!/api/cms/allocations/" : "http://127.0.0.1:8080/mock/allocation.json",
+
+	"get!/api/cms/allocation/" : "http://127.0.0.1:8080/mock/allocation.json",
+	"patch!/api/cms/allocation/" : "http://127.0.0.1:8080/mock/allocation.json",
+	"delete!/api/cms/allocation/" : "http://127.0.0.1:8080/mock/delete.json",
+
+	"get!/api/cms/scores/" : "http://127.0.0.1:8080/mock/scoreList.json",
+
+	"get!/api/cms/score/" : "http://127.0.0.1:8080/mock/score.json",
+	"patch!/api/cms/score/" : "http://127.0.0.1:8080/mock/score.json",
+
+	"get!/api/cms/score_report_deliveries/" : "http://127.0.0.1:8080/mock/scoreReportDeliveries.json",
+	"patch!/api/cms/score_report_delivery/" : "http://127.0.0.1:8080/mock/scoreReportDelivery.json",
+
+	"get!/api/cms/current_user/" : "http://127.0.0.1:8080/mock/currentUser.json",
+	
+	"get!/api/cms/online_courses/.*" : "http://127.0.0.1:8080/mock/xuetangx_courses.json",
+	"get!/api/cms/online_course_report/[\\d]*?/" : "http://127.0.0.1:8080/mock/print.json",
+	"get!/api/cms/online_course_report/[\\?].*" : "http://127.0.0.1:8080/mock/online_course_report.json"
+}

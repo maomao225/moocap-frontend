@@ -1,0 +1,23 @@
+{
+    "count": 10,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1,
+            "name": "北京"
+        },
+        {
+            "id": 4,
+            "name": "南京"
+        },
+        {
+            "id": 3,
+            "name": "西藏"
+        },
+        {
+            "id": 2,
+            "name": "青岛"
+        }
+    ]
+}

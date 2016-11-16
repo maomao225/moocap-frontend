@@ -1,0 +1,19 @@
+{
+    "id": 5,
+    "term": "2015-2016",
+    "examroom_name": "第一考场",
+    "exam": "大学化学",
+    "province": "大小",
+    "city": "鸡西",
+    "school": "测试学校1",
+    "student": "麻辣鸡",
+    "identity_type": "身份证",
+    "identity": "3707051876547982154",
+    "created": "2016-01-13T11:47:56.180731Z",
+    "modified": "2016-01-13T11:47:56.180817Z",
+    "exam_card_num": "asdfasdf",
+    "place": "12",
+    "is_active": true,
+    "examroom": 1,
+    "enroll": 1
+}

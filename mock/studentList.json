@@ -1,0 +1,48 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2,
+            "city": "123s啊3啊",
+            "province": "西藏",
+            "exam_city": "鸡西",
+            "exam_province": "大小",
+            "gender": "女",
+            "school": "测试学校1",
+            "date_joined": "2015-12-28 10:56:00+00:00",
+            "created": "2016-01-12T10:06:49.455790Z",
+            "modified": "2016-01-12T10:06:49.455901Z",
+            "name": "哆哆",
+            "avatar": "http://storage.xuetangx.com/upload/xuetangx/users/info/avatar/duoduo.png",
+            "gaokao_year": "2016年",
+            "identity_type": "身份证",
+            "identity": "3707051876547982154",
+            "phone": "18601684120",
+            "parent_phone": "18601684121",
+            "user": 1
+        },
+
+        {
+            "id": 4,
+            "city": "123s啊3啊",
+            "province": "西藏",
+            "exam_city": "鸡西",
+            "exam_province": "大小",
+            "gender": "女",
+            "school": "测试学校1",
+            "date_joined": "2015-12-28 10:56:00+00:00",
+            "created": "2016-01-12T10:06:49.455790Z",
+            "modified": "2016-01-12T10:06:49.455901Z",
+            "name": "哆哆",
+            "avatar": "http://storage.xuetangx.com/upload/xuetangx/users/info/avatar/duoduo.png",
+            "gaokao_year": "2016年",
+            "identity_type": "身份证",
+            "identity": "3707051876547982154",
+            "phone": "18601684120",
+            "parent_phone": "18601684121",
+            "user": 2
+        }
+    ]
+} 

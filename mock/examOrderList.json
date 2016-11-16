@@ -1,0 +1,35 @@
+{
+    "count": 2,
+    "next": "http://192.168.9.221:9999/api/cms/order/exam_orders/?limit=2&offset=2",
+    "previous": null,
+    "results": [
+        {
+            "id": 13,
+            "number": "219936031",
+            "cost": "60.00",
+            "status": "refund-applied",
+            "payway": "alipay",
+            "cyber_bank": "BJRCB",
+            "serial_number": "977445698",
+            "exam_name": "中华文化",
+            "student_name": "阿斯顿飞",
+            "identity_type": "阿斯顿急急急",
+            "identity": "1111",
+            "purchase_time": "2016-01-14T03:26:56.645284Z"
+        },
+        {
+            "id": 12,
+            "number": "596434387",
+            "cost": "60.00",
+            "status": "refunded",
+            "payway": "alipay",
+            "cyber_bank": "BJRCB",
+            "serial_number": "987536999",
+            "exam_name": "中华文化",
+            "student_name": "",
+            "identity_type": "",
+            "identity": "",
+            "purchase_time": "2016-01-14T03:26:56.634701Z"
+        }
+    ]
+}

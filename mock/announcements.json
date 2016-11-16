@@ -1,0 +1,23 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2,
+      "category": 2,
+      "title": "公告标题",
+      "content": "公告内容",
+      "publish_time": null,
+      "publish_status": false
+    },
+    {
+      "id": 1,
+      "category": 1,
+      "title": "通知标题",
+      "content": "通知内容",
+      "publish_time": "2016-01-08T11:48:32.101125Z",
+      "publish_status": true
+    }
+  ]
+}

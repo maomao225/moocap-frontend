@@ -1,0 +1,173 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1,
+            "name": "sysadmin",
+            "menus": [
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "information.examinfo",
+                            "name": "考试信息",
+                            "order": 2
+                        },
+                        {
+                            "menu": [],
+                            "codename": "information.memberschool",
+                            "name": "会员学校",
+                            "order": 3
+                        }
+                    ],
+                    "codename": "information",
+                    "name": "资讯管理",
+                    "order": 1
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "school.school",
+                            "name": "学校管理",
+                            "order": 1
+                        }
+                    ],
+                    "codename": "school",
+                    "name": "学校管理",
+                    "order": 2
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "course.course",
+                            "name": "课程管理",
+                            "order": 1
+                        }
+                    ],
+                    "codename": "course",
+                    "name": "课程管理",
+                    "order": 3
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "student.student",
+                            "name": "学生管理",
+                            "order": 1
+                        }
+                    ],
+                    "codename": "student",
+                    "name": "学生管理",
+                    "order": 4
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "exam.exam",
+                            "name": "考试管理",
+                            "order": 1
+                        },
+                        {
+                            "menu": [],
+                            "codename": "exam.room",
+                            "name": "考场管理",
+                            "order": 2
+                        },
+                        {
+                            "menu": [],
+                            "codename": "exam.distribution",
+                            "name": "考场分配管理",
+                            "order": 3
+                        },
+                        {
+                            "menu": [
+                                {
+                                    "codename": "exam.score.import",
+                                    "name": "考试成绩管理-导入",
+                                    "order": 1
+                                },
+                                {
+                                    "codename": "exam.score.export",
+                                    "name": "考试成绩管理-导出",
+                                    "order": 2
+                                }
+                            ],
+                            "codename": "exam.score",
+                            "name": "考试成绩管理",
+                            "order": 4
+                        },
+                        {
+                            "menu": [],
+                            "codename": "exam.report_score",
+                            "name": "成绩单上报管理",
+                            "order": 6
+                        }
+                    ],
+                    "codename": "exam",
+                    "name": "考务管理",
+                    "order": 5
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "order.exam",
+                            "name": "考试订单管理",
+                            "order": 1
+                        },
+                        {
+                            "menu": [],
+                            "codename": "order.report",
+                            "name": "成绩单订单管理",
+                            "order": 2
+                        }
+                    ],
+                    "codename": "order",
+                    "name": "订单管理",
+                    "order": 6
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "sysadmin.location",
+                            "name": "地区管理",
+                            "order": 1
+                        },
+                        {
+                            "menu": [],
+                            "codename": "sysadmin.term",
+                            "name": "年份管理",
+                            "order": 2
+                        },
+                        {
+                            "menu": [],
+                            "codename": "sysadmin.user",
+                            "name": "用户管理",
+                            "order": 3
+                        },
+                        {
+                            "menu": [],
+                            "codename": "sysadmin.group",
+                            "name": "角色管理",
+                            "order": 4
+                        }
+                    ],
+                    "codename": "sysadmin",
+                    "name": "系统管理",
+                    "order": 7
+                }
+            ],
+            "school_permissions": {
+                "codename": "schoolpermission__all",
+                "name": "全部学校"
+            }
+        }
+    ]
+}

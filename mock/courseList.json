@@ -1,0 +1,52 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3,
+            "school": "test测试学校",
+            "term": "2016-2017",
+            "created": "2015-12-29T10:37:00.051741Z",
+            "modified": "2015-12-29T10:37:00.051827Z",
+            "name": "撒地方",
+            "teacher": "搜索",
+            "ID_number": "130000000000000",
+            "phone": "1234567890",
+            "email": "asdf@asdf",
+            "enrollment": 1,
+            "is_authentication": true,
+            "is_active": true
+        },
+        {
+            "id": 1,
+            "school": "测试学校1",
+            "term": "2017-2018",
+            "created": "2015-12-29T10:16:06.534895Z",
+            "modified": "2015-12-29T10:16:06.534973Z",
+            "name": "xxx",
+            "teacher": "xxx",
+            "ID_number": "1300000000000001",
+            "phone": "1234567890",
+            "email": "asdf@asdf",
+            "enrollment": 0,
+            "is_authentication": false,
+            "is_active": true
+        },
+        {
+            "id": 4,
+            "school": "测试学校1",
+            "term": "2017-2018",
+            "created": "2015-12-29T10:16:06.534895Z",
+            "modified": "2015-12-29T10:16:06.534973Z",
+            "name": "xxx",
+            "teacher": "xxx",
+            "ID_number": "1300000000000001",
+            "phone": "1234567890",
+            "email": "asdf@asdf",
+            "enrollment": 0,
+            "is_authentication": false,
+            "is_active": true
+        }
+    ]
+}

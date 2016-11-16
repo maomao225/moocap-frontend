@@ -1,0 +1,35 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1,
+            "district_name": "城市4",
+            "city_name": "城市",
+            "province_name": "西藏",
+            "created": "2016-01-11T07:43:45.766851Z",
+            "modified": "2016-01-11T11:02:02.570312Z",
+            "name": "第一考场",
+            "address": "鸡西市第一中学",
+            "capacity": 123,
+            "is_active": true,
+            "can_delete":true,
+            "kaodian_name": "考点名称"
+        },
+        {
+            "id": 2,
+            "district_name": "城市4",
+            "city_name": "城市",
+            "province_name": "西藏",
+            "created": "2016-01-11T07:43:45.766851Z",
+            "modified": "2016-01-11T11:02:02.570312Z",
+            "name": "第一考场",
+            "address": "鸡西市第一中学",
+            "capacity": 123,
+            "is_active": true,
+            "can_delete":true,
+            "kaodian_name": "考点名称"
+        }
+    ]
+}

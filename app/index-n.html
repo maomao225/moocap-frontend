@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+  	<meta name="renderer" content="webkit">
+	<link rel="icon" type="image/x-icon" href="//storage.xuetangx.com/public_assets/moocap/favicon.ico" />
+	<title>MOOCAP管理系统 - 学堂在线</title>
+    <script type="text/javascript" src="bower_components/requirejs/require.js"></script>
+	<script type="text/javascript" src="library/basket/basket.js"></script>
+
+	<script type="text/javascript">
+	'use strict';
+
+	window.basket.require({ url: 'css/main.css', execute: false, fetchComplete: function() {
+	   var result = window.basket.get('css/main.css');
+	   var css = result.data;
+	   var head = document.getElementsByTagName('head')[0];
+	   var style = document.createElement('style');
+	   head.appendChild(style);
+	   style.type = 'text/css';
+	   style.innerHTML = css;
+	}});
+	require(['common/main']);
+	</script>
+</head>
+<body class="no-header no-footer">
+<iframe src="manifest.html" height="0" width="0" style="display:none;" ></iframe>
+</body>
+</html>

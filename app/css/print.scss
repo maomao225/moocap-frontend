@@ -1,0 +1,386 @@
+$itemWidth: 1000px;
+.bowser-tip{
+	width: $itemWidth;
+	margin:20px auto;
+	background:#FCDC95;
+	color:#000;
+	padding:10px;
+	border-radius:5px;
+	display: none;
+}
+.print-evaluate{
+
+	padding-bottom: 50px;
+	background:#ecf0f5;
+
+	.content{
+		padding-top: 100px;
+	}
+
+	.container{
+		width:$itemWidth;
+		margin:0 auto;
+		overflow: hidden;
+	}
+
+	.header{
+		background:#fff;
+		box-shadow:2px 2px 2px #ddd;
+		padding:16px 0;
+		margin-bottom: 15px;
+		position: fixed;
+		width: 100%;
+		z-index: 999;
+
+		.left{
+			float: left;
+
+			h1{
+				font-size:18px;
+				font-weight: bold;
+				color:#000;
+				margin:0;
+				padding:0;
+			}
+
+			.des{
+				margin-top: 10px;
+				color:#333;
+				font-size:13px;
+			}
+		}
+		.right{
+			float: right;
+			width: 100px;
+			padding-top: 8px;
+
+			.print-button{
+				width: 80px;
+		    height: 35px;
+		    font-size:14px;
+		    color:#fff;
+		    background:rgba(46, 121, 185, 1);
+		    display: block;
+		    border: none;
+		    border-radius: 4px;
+		    text-align: center;
+		    line-height: 35px;
+		    padding:0;
+		    margin:0;
+		    text-decoration: none;
+			}
+		}
+	}
+
+	article{
+		width:$itemWidth;
+		margin:0 auto 20px;
+		background:#fff;
+		padding:24px 34px;
+		page-break-after:always;
+
+		&:last-child{
+			page-break-after:avoid;
+		}
+
+		.logo{
+			overflow: hidden;
+
+			.logo-main{
+				overflow: hidden;
+				float: left;
+				width: 50%;
+
+
+				> img{
+					float: left;
+					width: 227px;
+					margin-right: 10px;
+				}
+				aside{
+					overflow: hidden;
+					margin-top: 15px;
+
+					p{
+						font-size:12px;
+						line-height: 1;
+						// transform:scale(.8);
+						transform-origin:left center;
+						margin-bottom: 5px;
+					}
+				}
+			}
+
+			.logo-des{
+				float: right;
+				padding-top: 10px;
+
+				p{
+					color:#b52b2a;
+					font-size:12px;
+					text-align: right;
+					margin-bottom: 5px;
+
+					img{
+						width: 135px;
+					}
+				}
+			}
+		}
+
+		aside{
+			font-size:12px;
+			margin-top: 8px;
+
+			em{
+				font-style:normal;
+				line-height: 2;
+				border-top:1px solid #BFBFBF;
+				padding-right:5px;
+				padding-top:5px;
+			}
+
+			ul{
+				list-style-type: none;
+				padding:0;
+			}
+		}
+	}
+
+	.table-summary{
+		border:2px solid black;
+		margin-top: 20px;
+		margin-bottom: 3px;
+		width: 100%;
+
+		.bar{
+			width: 100%;
+			height: 106px;
+			background-size: contain;
+			margin-top: 10px;
+
+			dl{
+				float: left;
+				margin-right:3px;
+				margin-top: 25px;
+				margin-bottom: 0;
+				&:last-child{
+					margin-right: 0;
+				}
+
+				dt{
+					position: relative;
+					width: 70px;
+					height: 70px;
+					img{
+						position: absolute;
+						left:0;
+						top:0;
+						width: 100%;
+					}
+
+					em{
+						display: block;
+				    text-align: center;
+				    font-size: 12px;
+				    font-style: normal;
+				    height: 28px;
+				    line-height: 28px;
+				    font-weight: normal;
+				    position: relative;
+				    z-index: 1;
+				    transform:scale(0.8);
+					}
+					span{
+						display: block;
+						text-align: center;
+						font-weight: bold;
+						font-size:14px;
+						height: 25px;
+						line-height: 25px;
+						position: relative;
+						white-space:nowrap;
+					}
+				}
+
+				dd{
+					font-size:12px;
+					font-weight: normal;
+					text-align: center;
+					padding-top: 15px;
+					background:url('//storage.xuetangx.com/public_assets/xuetangx/images/5636f80143c59be1e8eb43da0e54540b.arc.png') no-repeat center 7px;
+				}
+				
+			}
+		}
+
+		th{
+			border-right:1px solid #BFBFBF;
+			position: relative;
+
+			.person-info{
+				padding-left:15px;
+				font-size:15px;
+				margin-bottom: 14px;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+
+			h6{
+				padding:0;
+				font-size:15px;
+				margin-top: 0;
+				margin-bottom: 15px;
+				position: absolute;
+				left:5px;
+				top:10px;
+			}
+
+			img{
+				// width: 119px;
+				// max-height:172px;
+			}
+
+			.score{
+				font-size:65px;
+				font-weight: bold;
+				display: block;
+				text-align: center;
+				color:#000;
+				margin-top: 10px;
+				font-style:italic;
+			}
+
+			.des{
+				margin:0 auto;
+				width: 70%;
+				color:#000;
+				padding:10px 0 0;
+				text-align: center;
+				border-top:1px solid #000;
+			}
+		}
+
+		td{
+			background:black;
+			font-size:12px;
+			color:#fff;
+			height: 23px;
+			line-height: 23px;
+			text-indent: 5px;
+		}
+	}
+
+	.table-content{
+		width: 100%;
+		font-size:13px;
+		border:1px solid #c4c2c3;
+
+		tr{
+			border-bottom:1px solid #ededed;
+			td:first-child,th:first-child{
+				border-right:1px solid #ededed
+			}
+			td:last-child,th:last-child{
+				text-align: left;
+				padding-left:10px;
+				padding-right: 10px;
+			}
+			td:last-child{
+				padding:0 10px;
+			}
+		}
+
+		td{
+			text-align: center;
+			position: relative;
+
+			.count{
+				position: absolute;
+				left:0;
+				top:50%;
+				margin-top:-30px;
+				font-size:28px;
+				// font-family:Arial;
+				font-weight: bold;
+				text-align: center;
+				width: 100%;
+				font-style:italic;
+				text-indent: 10px;
+			}
+
+			p{
+				padding:0;
+				margin:0;
+			}
+		}
+
+		th{
+			background:#f2f0f1;
+			text-align: center;
+			color:#333;
+			height: 27px;
+			line-height: 27px;
+		}
+	}
+
+	.footer{
+		position:fixed;
+		bottom:0;
+		left:0;
+		width: 100%;
+		background:rgba(43, 59, 65, 1);
+		color:#73A4B0;
+		font-size:13px;
+		text-align: center;
+		padding: 15px 0;
+		font-family:'Arial';
+	}
+
+	@media print{ 
+		.no-print{
+			display: none;
+		}
+		article{
+			margin:0;
+			padding:0;
+			margin-bottom:-200px;
+		}
+		.table-summary{
+			margin-top: 10px;
+		}
+		.table-summary td{
+			background-color: black !important;
+	    -webkit-print-color-adjust: exact; 
+	    color:#fff !important;
+
+	    strong{
+	    	color:#fff !important;
+	    }
+		}
+		.table-summary .bar dl dd{
+			background: url("//storage.xuetangx.com/public_assets/xuetangx/images/5636f80143c59be1e8eb43da0e54540b.arc.png") no-repeat center 7px !important;
+	    -webkit-print-color-adjust: exact; 
+	    color:#333 !important;
+		}
+		.table-content th{
+			background:#f2f0f1 !important;
+			-webkit-print-color-adjust: exact; 
+			color:#333 !important;
+		}
+		article .logo .logo-des p{
+			color:#b52b2a !important;
+		}
+		.table-summary .bar{
+			margin-left: 25px;
+		}
+		.table-summary th:first-child{
+			// border-right: 1px solid transparent;
+		}
+		.content{
+			padding-top: 0;
+		}
+	}
+}

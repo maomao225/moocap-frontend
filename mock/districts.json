@@ -1,0 +1,32 @@
+{
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 6,
+            "name": "城市0",
+            "city": 6
+        },
+        {
+            "id": 7,
+            "name": "城市1",
+            "city": 6
+        },
+        {
+            "id": 8,
+            "name": "城市2",
+            "city": 6
+        },
+        {
+            "id": 9,
+            "name": "城市3",
+            "city": 6
+        },
+        {
+            "id": 10,
+            "name": "城市4",
+            "city": 6
+        }
+    ]
+}

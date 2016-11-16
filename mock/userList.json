@@ -1,0 +1,192 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 4,
+            "username": "test1",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "groups": [],
+            "menus": [],
+            "is_active": true
+        },
+        {
+            "id": 3,
+            "username": "test",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "groups": [],
+            "menus": [],
+            "is_active": true
+        },
+        {
+            "id": 2,
+            "username": "duoduo3369",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "groups": [
+                {
+                    "id": 1,
+                    "name": "sysadmin"
+                }
+            ],
+            "menus": [
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "school_school",
+                            "name": "学校管理",
+                            "order": 1
+                        }
+                    ],
+                    "codename": "school",
+                    "name": "学校管理",
+                    "order": 2
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "course_course",
+                            "name": "课程管理",
+                            "order": 1
+                        }
+                    ],
+                    "codename": "course",
+                    "name": "课程管理",
+                    "order": 3
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "sysadmin_term",
+                            "name": "年份管理",
+                            "order": 2
+                        }
+                    ],
+                    "codename": "sysadmin",
+                    "name": "系统管理",
+                    "order": 7
+                }
+            ],
+            "is_active": true
+        },
+        {
+            "id": 1,
+            "username": "duoduo",
+            "name": "",
+            "email": "",
+            "phone": "",
+            "groups": [
+                {
+                    "id": 1,
+                    "name": "sysadmin"
+                }
+            ],
+            "menus": [
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "school_school",
+                            "name": "学校管理",
+                            "order": 1
+                        }
+                    ],
+                    "codename": "school",
+                    "name": "学校管理",
+                    "order": 2
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "course_course",
+                            "name": "课程管理",
+                            "order": 1
+                        }
+                    ],
+                    "codename": "course",
+                    "name": "课程管理",
+                    "order": 3
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "student_student",
+                            "name": "学生管理",
+                            "order": 1
+                        }
+                    ],
+                    "codename": "student",
+                    "name": "学生管理",
+                    "order": 4
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [
+                                {
+                                    "codename": "exam_score_import",
+                                    "name": "考试成绩管理-导入",
+                                    "order": 1
+                                },
+                                {
+                                    "codename": "exam_score_export",
+                                    "name": "考试成绩管理-导出",
+                                    "order": 2
+                                }
+                            ],
+                            "codename": "exam_score",
+                            "name": "考试成绩管理",
+                            "order": 4
+                        }
+                    ],
+                    "codename": "exam",
+                    "name": "考务管理",
+                    "order": 5
+                },
+                {
+                    "menu": [
+                        {
+                            "menu": [],
+                            "codename": "sysadmin_location",
+                            "name": "地区管理",
+                            "order": 1
+                        },
+                        {
+                            "menu": [],
+                            "codename": "sysadmin_term",
+                            "name": "年份管理",
+                            "order": 2
+                        },
+                        {
+                            "menu": [],
+                            "codename": "sysadmin_user",
+                            "name": "用户管理",
+                            "order": 3
+                        },
+                        {
+                            "menu": [],
+                            "codename": "sysadmin_group",
+                            "name": "角色管理",
+                            "order": 4
+                        }
+                    ],
+                    "codename": "sysadmin",
+                    "name": "系统管理",
+                    "order": 7
+                }
+            ],
+            "is_active": true
+        }
+    ]
+}

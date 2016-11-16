@@ -1,0 +1,21 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2,
+            "course_id": "TsinghuaX/AP000003X/2015_T1",
+            "name": "概率论与数理统计 （先修课）",
+            "start": "2015-09-21T20:00:00Z",
+            "end": "2016-03-29T08:00:00Z"
+        },
+        {
+            "id": 1,
+            "course_id": "course-v1:TsinghuaX+30240184_1X+2016_T1",
+            "name": "数据结构(上)(2016春)",
+            "start": "2016-03-14T16:00:00Z",
+            "end": "2016-06-07T15:59:00Z"
+        }
+    ]
+}

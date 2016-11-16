@@ -1,0 +1,28 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3,
+            "created": "2015-12-29T10:15:15.328784Z",
+            "modified": "2015-12-29T10:15:15.328861Z",
+            "name": "2017-2018",
+            "is_active": true
+        },
+        {
+            "id": 2,
+            "created": "2015-12-29T10:15:04.208188Z",
+            "modified": "2015-12-29T10:15:04.208277Z",
+            "name": "2016-2017",
+            "is_active": true
+        },
+        {
+            "id": 1,
+            "created": "2015-12-29T10:14:57.900284Z",
+            "modified": "2015-12-29T10:14:57.900375Z",
+            "name": "2015-2016",
+            "is_active": true
+        }
+    ]
+}

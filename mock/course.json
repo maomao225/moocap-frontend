@@ -1,0 +1,15 @@
+{
+    "id": 5,
+    "created": "2016-01-09T08:03:15.532110Z",
+    "modified": "2016-01-09T08:03:15.532167Z",
+    "name": "3",
+    "teacher": "4",
+    "ID_number": "",
+    "phone": "",
+    "email": "",
+    "enrollment": 0,
+    "is_authentication": false,
+    "is_active": true,
+    "term": 1,
+    "school": 2
+}

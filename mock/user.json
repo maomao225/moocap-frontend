@@ -1,0 +1,42 @@
+{
+    "id": 4,
+    "username": "test1",
+    "name": "大学4",
+    "email": null,
+    "phone": "",
+    "groups": [
+        {
+            "id": 17,
+            "name": "大学2"
+        }
+    ],
+    "menus": [
+        {
+            "menu": [
+                {
+                    "menu": [],
+                    "codename": "course_course",
+                    "name": "课程管理",
+                    "order": 1
+                }
+            ],
+            "codename": "course",
+            "name": "课程管理",
+            "order": 3
+        },
+        {
+            "menu": [
+                {
+                    "menu": [],
+                    "codename": "sysadmin_term",
+                    "name": "年份管理",
+                    "order": 2
+                }
+            ],
+            "codename": "sysadmin",
+            "name": "系统管理",
+            "order": 7
+        }
+    ],
+    "is_active": true
+}

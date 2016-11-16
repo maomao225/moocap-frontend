@@ -1,0 +1,35 @@
+{
+    "count": 10,
+    "next": "http://192.168.9.221:9999/api/cms/score_report_deliveries/?limit=2&offset=2",
+    "previous": null,
+    "results": [
+        {
+            "id": 23,
+            "number": "721042516",
+            "school_name": "测试学校1",
+            "exam_card_num": "12001212",
+            "bill_to_name": "asdfasdf",
+            "bill_to_phonenumber": "adfasdf",
+            "address": "西藏123s啊3啊address",
+            "bill_to_postalcode": "adadfadsf",
+            "deliver_status": "delivering",
+            "logistics_company": "adasdf",
+            "tracking_number": "adfasdf",
+            "purchase_time": "2016-01-14T07:38:41.170154Z"
+        },
+        {
+            "id": 21,
+            "number": "753153691",
+            "school_name": "测试学校1",
+            "exam_card_num": "",
+            "bill_to_name": null,
+            "bill_to_phonenumber": null,
+            "address": "西藏123s啊3啊address",
+            "bill_to_postalcode": null,
+            "deliver_status": "delivering",
+            "logistics_company": null,
+            "tracking_number": null,
+            "purchase_time": "2016-01-14T07:38:41.165829Z"
+        }
+    ]
+}

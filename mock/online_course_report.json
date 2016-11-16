@@ -1,0 +1,106 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 31,
+            "term": "2015-2016",
+            "online_course": {
+                "id": 3,
+                "course_id": "course-v1:TsinghuaX+AP000002X+2016_T1",
+                "name": "大学物理（先修课）-力学（2016春）",
+                "start": "2016-02-28T17:00:00Z",
+                "end": null
+            },
+            "student": {
+                "id": 26,
+                "city": {
+                    "id": 79,
+                    "name": "巴中"
+                },
+                "province": {
+                    "id": 24,
+                    "name": "四川"
+                },
+                "exam_city": {
+                    "id": 79,
+                    "name": "巴中"
+                },
+                "exam_province": {
+                    "id": 24,
+                    "name": "四川"
+                },
+                "gender": "男",
+                "school": {
+                    "id": 192,
+                    "name": "福州第一中学"
+                },
+                "date_joined": "2016-03-30 08:57:39.351164+00:00",
+                "created": "2016-03-30T09:03:36.362991Z",
+                "modified": "2016-06-22T08:13:36.214418Z",
+                "name": "张佳佳",
+                "email": "6767677@qq.com",
+                "avatar": "http://storage.xuetangx.com/public_assets/moocap/identification/1466583136421495.jpeg",
+                "gaokao_year": "2017",
+                "identity_type": "身份证",
+                "identity": "330184198501184115",
+                "phone": "18519055173",
+                "parent_phone": "13333333333",
+                "can_modify": true,
+                "user": 188
+            },
+            "exam_card_num": null,
+            "unique_code": "XUE1603C5A89BA87N00000188"
+        },{
+            "id": 32,
+            "term": "2015-2016",
+            "online_course": {
+                "id": 3,
+                "course_id": "course-v1:TsinghuaX+AP000002X+2016_T1",
+                "name": "大学物2理（先修课）-力学（2016春）",
+                "start": "2016-02-28T17:00:00Z",
+                "end": null
+            },
+            "student": {
+                "id": 26,
+                "city": {
+                    "id": 79,
+                    "name": "巴中"
+                },
+                "province": {
+                    "id": 24,
+                    "name": "四川"
+                },
+                "exam_city": {
+                    "id": 79,
+                    "name": "巴中"
+                },
+                "exam_province": {
+                    "id": 24,
+                    "name": "四川"
+                },
+                "gender": "男",
+                "school": {
+                    "id": 192,
+                    "name": "福州第一中学"
+                },
+                "date_joined": "2016-03-30 08:57:39.351164+00:00",
+                "created": "2016-03-30T09:03:36.362991Z",
+                "modified": "2016-06-22T08:13:36.214418Z",
+                "name": "张佳佳",
+                "email": "6767677@qq.com",
+                "avatar": "http://storage.xuetangx.com/public_assets/moocap/identification/1466583136421495.jpeg",
+                "gaokao_year": "2017",
+                "identity_type": "身份证",
+                "identity": "330184198501184115",
+                "phone": "18519055173",
+                "parent_phone": "13333333333",
+                "can_modify": true,
+                "user": 188
+            },
+            "exam_card_num": null,
+            "unique_code": "XUE1603C5A89BA87N00000188"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3,
+            "term": "2015-2016",
+            "exam": "大学化学",
+            "province": "大小",
+            "school": "测试学校1",
+            "student": "麻辣鸡",
+            "identity_type": "身份证",
+            "score_num":"2016155455665566",
+            "identity": "3707051876547982154",
+            "exam_card_num": "fasdfsadf",
+            "score":"100",
+            "grade":"100%",
+            "created": "2016-01-13T11:47:56.180731Z",
+            "modified": "2016-01-13T11:47:56.180817Z",
+            "enroll": 1
+        }
+    ]
+}

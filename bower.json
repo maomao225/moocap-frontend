@@ -1,0 +1,30 @@
+{
+  "name": "moocap_mangement",
+  "description": "js lib",
+  "main": "",
+  "authors": [
+    "yindeqiang <yindeqiang@xuetangx.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "jquery": "~2.1.4",
+    "requirejs": "~2.1.22",
+    "text": "requirejs-text#~2.0.14",
+    "bootstrap-sass": "~3.3.6",
+    "smalot-bootstrap-datetimepicker": "~2.3.5",
+    "bootstrapvalidator": "bootstrapValidator#~0.5.3"
+  }
+}

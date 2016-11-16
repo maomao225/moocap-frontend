@@ -1,0 +1,37 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 5,
+            "city": "城市",
+            "province": "北京",
+            "created": "2015-12-29T06:27:56.162131Z",
+            "modified": "2015-12-29T06:31:25.413165Z",
+            "category": 2,
+            "name": "北京大学",
+            "address": "xxxxxxxxxa",
+            "contact": "xxxxa",
+            "position": "a",
+            "phone": "a",
+            "email": "a",
+            "is_active": true
+        },
+        {
+            "id": 4,
+            "city": "娃娃菜",
+            "province": "大小",
+            "created": "2015-12-29T06:27:26.139968Z",
+            "modified": "2015-12-29T06:27:26.140085Z",
+            "category": 1,
+            "name": "清华大学",
+            "address": "xxxx",
+            "contact": "xxxxx",
+            "position": "",
+            "phone": "",
+            "email": "",
+            "is_active": true
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+      "id": 10,
+      "city": "城市",
+      "province": "西藏",
+      "exam_city": "城市",
+      "exam_province": "西藏",
+      "gender": "男",
+      "school": "北京大学",
+      "date_joined": "2015-12-29 10:42:00+00:00",
+      "created": "2016-01-12T10:05:51.136143Z",
+      "modified": "2016-01-12T10:05:51.136178Z",
+      "name": "asdfasdf",
+      "avatar": "http://www.baidu.com",
+      "gaokao_year": "2017年",
+      "identity_type": "身份证",
+      "identity": "11asdfasdf",
+      "phone": "asdfasdf",
+      "parent_phone": "98098098098",
+      "user": 5
+}

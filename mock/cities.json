@@ -1,0 +1,32 @@
+{
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 9,
+            "name": "mlj",
+            "province": 3
+        },
+        {
+            "id": 7,
+            "name": "zzz",
+            "province": 3
+        },
+        {
+            "id": 6,
+            "name": "城市",
+            "province": 3
+        },
+        {
+            "id": 10,
+            "name": "的人",
+            "province": 3
+        },
+        {
+            "id": 8,
+            "name": "麻辣鸡",
+            "province": 3
+        }
+    ]
+}
